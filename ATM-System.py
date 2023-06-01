@@ -11,7 +11,7 @@ pwd_4 = 456
 pwd_5 = 567
 banker_pwd = 9826
 for i in range(500):
-    print("ATM System")
+    print("Welcome to my ATM System")
     time.sleep(1)
     print("1 - Change Password")
     print("2 - Proceed to Money Management")
