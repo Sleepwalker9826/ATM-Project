@@ -10,7 +10,8 @@ pwd_3 = 345
 pwd_4 = 456
 pwd_5 = 567
 banker_pwd = 9826
-for i in range(500):
+loop = True
+while loop:
     print("Welcome to my ATM System")
     time.sleep(1)
     print("1 - Change Password")
