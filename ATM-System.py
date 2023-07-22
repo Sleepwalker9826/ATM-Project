@@ -306,7 +306,7 @@ while loop:
             print("Invalid Response")
     elif action_on_startup == 3:
         Banker_pwd_1 = int(input("Enter Banker's Password : "))
-        if banker_pwd == banker_pwd:
+        if Banker_pwd_1 == banker_pwd:
             print("Welcome Banker!")
             Acc_Num_2 = int(input("Enter Account Number : "))
             if Acc_Num_2 == 1:
